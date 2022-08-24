@@ -1,7 +1,7 @@
 const libs: any = window as any;
 const loaders: { [name: string]: Promise<any> } = {};
 
-export async function loadLibrary<L>(url: string, name: string, onLoad?: (lib: any) => void): Promise<L> {
+export async function loadLibrary<T>(url: string, name: string, onLoad?: (lib: T) => void): Promise<T> {
   if (libs[name] == null) {
     if (loaders[name] == null) {
       loaders[name] = new Promise((resolve, reject) => {

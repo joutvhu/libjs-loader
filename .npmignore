@@ -224,12 +224,11 @@ Temporary Items
 # Source
 src/
 
-# LibHeif
-libheif.sh
-
 # Config
 .github/
 .editorconfig
 .eslintrc
 .gitignore
 tsconfig.json
+rollup.config.js
+rollup.config.ts
