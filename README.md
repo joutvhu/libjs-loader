@@ -2,6 +2,12 @@
 
 Provides a method for lazy loading of js libraries in the browser.
 
+## Installation
+
+```shell
+npm i libjs-loader
+```
+
 ## Using
 
 ```ts
